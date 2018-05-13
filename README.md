@@ -1,5 +1,13 @@
 # Sanitarios Rodriguez Full-Stack Website
 
+El proyecto "Sanitarios Rodriguez Full-Stack Website" se basa en un sitio web full responsive, con opcion a instalarse como aplicacion mobile en celulares y un administrador para el catalogo de productos.
+
+### Stack
+
+- Sails framework para servir una API REST en el backend
+- ReactJS como cliente frontend
+- MongoDB como base de datos
+
 ### Requisitos previos
 - NodeJS >= 9.x.x (http://nodejs.org)
 - NPM >= 5.x.x (Viene incluido en Node)
