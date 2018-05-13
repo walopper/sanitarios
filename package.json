@@ -1,0 +1,47 @@
+{
+  "name": "sanitarios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "webpack -p",
+    "serve": "webpack-dev-server",
+    "start": "forever ./server/index.js"
+  },
+  "engine": {
+    "node": "9.6.1",
+    "npm": "5.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walopper/sanitarios.git"
+  },
+  "author": "Alejandro Rodriguez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/walopper/sanitarios/issues"
+  },
+  "homepage": "https://github.com/walopper/sanitarios#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "mongo": "^0.1.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "redux": "^4.0.0",
+    "sails": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "chai": "^4.1.2",
+    "gulp": "^3.9.1",
+    "mocha": "^5.1.1",
+    "webpack": "^4.8.2",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
